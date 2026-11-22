@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traçabilitat · P2632110001288</title>
+<style>
+  :root { --dk:#1B1F3B; --gr:#0BA360; --co:#FF5E5B; --bl:#3A86FF; --pu:#8B5CF6; --mut:#5B6478; --bg:#F2F4FF; --line:#D9DEF0; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background:#E9ECF7; color:var(--dk); }
+  .app { max-width: 480px; margin: 0 auto; background:#fff; min-height:100vh; }
+  .top { background:var(--dk); color:#fff; padding:14px 16px 12px; }
+  .brand { display:flex; justify-content:space-between; align-items:center; font-size:12px; letter-spacing:.5px; color:#AEB6D3; font-family: "Courier New", monospace; font-weight:bold; }
+  .dot { width:8px; height:8px; border-radius:50%; background:var(--gr); display:inline-block; margin-right:6px; }
+  .search { margin-top:10px; background:#2A2F55; border-radius:8px; padding:9px 12px; font-family:"Courier New", monospace; font-size:14px; display:flex; justify-content:space-between; }
+  .search span:last-child { color:#A6E9C5; }
+  .sec { padding:14px 16px 4px; }
+  h1 { font-size:20px; margin:0 0 2px; }
+  .muted { color:var(--mut); font-size:12.5px; }
+  .chips { display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; }
+  .chip { font-size:11.5px; font-weight:bold; padding:3px 9px; border-radius:20px; }
+  .ok { background:#E6F6EE; color:var(--gr); } .warn { background:#FFF0EE; color:var(--co); } .info { background:#EAF2FF; color:var(--bl); }
+  .lab { font-family:"Courier New", monospace; font-size:11px; font-weight:bold; color:#5B4CF5; letter-spacing:.4px; margin:6px 0 8px; }
+  .alert { margin:12px 16px 4px; background:var(--co); color:#fff; border-radius:10px; padding:12px 14px; }
+  .alert b.big { font-size:24px; display:block; margin:2px 0; }
+  .alert .row { display:flex; gap:8px; margin-top:8px; }
+  .alert .row div { flex:1; background:rgba(255,255,255,.18); border-radius:7px; padding:6px 4px; text-align:center; font-size:11px; }
+  .alert .row div b { display:block; font-size:18px; }
+  .tree { border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  .node { display:flex; justify-content:space-between; align-items:center; padding:9px 12px; border-top:1px solid #EEF0F7; font-size:13px; }
+  .node:first-child { border-top:none; background:var(--bg); font-weight:bold; }
+  .node .id { font-family:"Courier New", monospace; font-size:11.5px; color:var(--mut); }
+  .node.bad { background:#FFF0EE; }
+  .node.bad .id { color:var(--co); font-weight:bold; }
+  .ind { padding-left:26px; position:relative; }
+  .ind::before { content:"└"; position:absolute; left:11px; color:#AEB6D3; }
+  .tl { list-style:none; padding:0; margin:0; }
+  .tl li { position:relative; padding:0 0 12px 22px; font-size:13px; }
+  .tl li::before { content:""; position:absolute; left:5px; top:4px; width:9px; height:9px; border-radius:50%; background:var(--gr); }
+  .tl li::after { content:""; position:absolute; left:9px; top:14px; bottom:0; width:1px; background:var(--line); }
+  .tl li:last-child::after { display:none; }
+  .tl small { display:block; color:var(--mut); font-size:11.5px; }
+  .cmp { display:flex; gap:8px; margin:6px 16px 14px; }
+  .cmp div { flex:1; border-radius:9px; padding:10px; font-size:12px; }
+  .cmp b { display:block; font-size:17px; }
+  .before { background:#FFF0EE; color:var(--co); } .after { background:var(--gr); color:#fff; }
+  .foot { text-align:center; font-size:11px; color:var(--mut); padding:10px 16px 22px; border-top:1px solid #EEF0F7; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand"><span><span class="dot"></span>TRAÇA · ERP</span><span>CONSULTA ≤ 10 s</span></div>
+    <div class="search"><span>P2632110001288</span><span>✓ QR nivell H llegit</span></div>
+  </div>
+
+  <div class="sec">
+    <h1>Actuador lineal 24 V</h1>
+    <div class="muted">Fabricat a l’estació EM-2 · alliberat per qualitat el 18/11/2026</div>
+    <div class="chips"><span class="chip warn">Reclamació oberta</span><span class="chip info">Client: Instal·lacions Vallès</span><span class="chip ok">Garantia vigent</span></div>
+  </div>
+
+  <div class="alert">
+    <div style="font-size:11px;font-weight:bold;letter-spacing:.4px;font-family:'Courier New',monospace">ORIGEN DEL DEFECTE</div>
+    <b class="big">Lot E-4471 de l’encoder</b>
+    <div style="font-size:12.5px">L’estació de muntatge no té incidències. 12 encoders del lot:</div>
+    <div class="row"><div><b>5</b>expedits<br>(2 clients)</div><div><b>2</b>en curs</div><div><b>5</b>en estoc</div></div>
+    <div style="margin-top:10px;font-weight:bold;font-size:14px">→ Retenir 7 productes, no tots</div>
+  </div>
+
+  <div class="sec">
+    <div class="lab">GENEALOGIA DEL PRODUCTE</div>
+    <div class="tree">
+      <div class="node"><span>Actuador lineal</span><span class="id">P2632110001288</span></div>
+      <div class="node ind bad"><span>Encoder incremental</span><span class="id">C2631610001187 · lot E-4471</span></div>
+      <div class="node ind"><span>Motor 24 V</span><span class="id">M2630910000470 · lot MT-0932</span></div>
+      <div class="node ind"><span>Cos d’alumini</span><span class="id">lot AL-2611</span></div>
+      <div class="node ind"><span>Placa de control</span><span class="id">C2631510000962</span></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="lab">RECORREGUT</div>
+    <ul class="tl">
+      <li>Recepció dels components<small>PO-01 · lots i proveïdors registrats</small></li>
+      <li>Muntatge a l’estació EM-2<small>PO-04 · motor amb entrada manual validada (etiqueta tacada)</small></li>
+      <li>Control de qualitat OK<small>PO-05 · evidència adjunta</small></li>
+      <li>Expedició al client<small>PO-07 · unitat logística completa</small></li>
+    </ul>
+  </div>
+
+  <div class="cmp">
+    <div class="before">Abans<b>30–60 min</b>2–3 programes · retirar-ho tot</div>
+    <div class="after">Ara<b>≤ 10 s</b>1 consulta · 7 productes</div>
+  </div>
+
+  <div class="foot">Maqueta de demostració · Sistema digital de traçabilitat · GP II · Grup 7 · TecnoCampus</div>
+</div>
+</body>
+</html>
